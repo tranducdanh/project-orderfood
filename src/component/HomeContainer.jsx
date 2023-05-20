@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const HomeContainer = () => {
   return (
-    <section className="grid grid-cols-1 md:grid-cols-2 gap-2" id="home">
+    <section className="px-28 grid grid-cols-1 md:grid-cols-2 gap-2" id="home">
       <div className="py-2 flex-1 flex flex-col items-start  justify-center gap-2">
         <motion.div whileHover={{scale:1.1}} className="flex items-center gap-2 justify-center bg-orange-100 rounded-full p-2">
           <p className="text-base text-orange-500 font-semibold">
@@ -31,7 +31,7 @@ const HomeContainer = () => {
           Repudiandae!
         </p>
         <motion.button whileTap={{scale:0.75}} className="bg-gradient-to-br from-orange-400 to-orange-600 w-full md:w-auto px-4 py-2 rounded-lg hover:shadow-lg transition-all ease-in-out duration-100">
-          Order Now
+          <a href="#menu">Order Now</a>
         </motion.button>
       </div>
 

@@ -2,8 +2,6 @@ import {getApp, getApps, initializeApp} from'firebase/app'
 import {getStorage} from'firebase/storage'
 import {getFirestore} from'firebase/firestore'
 
-
-
 const firebaseConfig = {
     apiKey: "AIzaSyCZkeMn_CYJBjizIjXx_nC6VexSr8jaPSc",
     authDomain: "restaurant-cc8be.firebaseapp.com",

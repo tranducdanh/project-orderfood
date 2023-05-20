@@ -6,23 +6,23 @@ import heroProduct04 from '../img/fi1.png';
 export const heroProductData = [
   {
     id: 1,
-    name: 'Icecreams',
+    name: 'Icecream',
     description: 'Chocolate & Vanilla',
-    price: '5.5',
+    price: '5',
     imageSrc: heroProduct01,
   },
   {
     id: 2,
     name: 'Strawberries',
     description: 'Fresh Strawberries',
-    price: '8.5',
+    price: '8',
     imageSrc: heroProduct02,
   },
   {
     id: 3,
     name: 'Chicken Kebab',
     description: 'Mixed Kebab Plate',
-    price: '3.5',
+    price: '8',
     imageSrc: heroProduct03,
   },
   {

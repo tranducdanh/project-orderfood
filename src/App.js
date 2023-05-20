@@ -27,7 +27,7 @@ function App() {
     <AnimatePresence mode='wait'>
       <div className="w-screen h-screen flex flex-col">
         <Header />
-        <main className="mt-24 md:mt-24  px-5 py-0 w-full">
+        <main className="mt-24 md:mt-24  px-0 py-0 w-full">
           <Routes>
             <Route path="/*" element={<MainContainer />} />
             <Route path="/createItem" element={<CreateContainer />} />
